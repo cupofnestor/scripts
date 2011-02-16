@@ -1,0 +1,5 @@
+#! /bin/bash
+
+for i in `ls *.jpg`; 
+do echo "$i , "  | tr -d "\n" >> csv.txt
+done
